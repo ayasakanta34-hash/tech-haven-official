@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tech Haven Coaching Institute</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    /* Reset & base */
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Roboto', sans-serif; }
+    body { line-height: 1.6; color: #333; }
+    a { text-decoration: none; color: inherit; }
+
+    /* Header */
+    header {
+      background: #007bff;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 { margin-bottom: 10px; font-size: 2em; }
+    nav a { margin: 0 15px; font-weight: bold; color: #fff; }
+
+    /* Hero section */
+    .hero {
+      background: #f1f1f1;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h2 { font-size: 2em; margin-bottom: 10px; }
+    .hero p { font-size: 1.2em; margin-bottom: 20px; }
+
+    /* Courses section */
+    .courses {
+      padding: 40px 20px;
+      background: #fff;
+    }
+    .courses h2 { text-align: center; margin-bottom: 30px; }
+    .course-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .course-item {
+      background: #f8f8f8;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    /* Contact section */
+    .contact {
+      background: #007bff;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .contact p { margin-bottom: 10px; }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    /* Responsive */
+    @media(max-width:768px) {
+      .course-list { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Tech Haven Coaching Institute</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Welcome to Tech Haven</h2>
+    <p>Your path to success in academics starts here!</p>
+  </section>
+
+  <section class="courses" id="courses">
+    <h2>Our Courses</h2>
+    <div class="course-list">
+      <div class="course-item">
+        <h3>Class 4th - 10th</h3>
+        <p>Science, Maths, and more</p>
+      </div>
+      <div class="course-item">
+        <h3>Class 11th - 12th</h3>
+        <p>Physics, Chemistry, Maths, Biology</p>
+      </div>
+      <div class="course-item">
+        <h3>Home Tuition</h3>
+        <p>Personalized learning at home</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 8249458300</p>
+    <p>Email: info@techhaven.com</p>
+    <p>Address: Your City, State, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Tech Haven Coaching Institute. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
